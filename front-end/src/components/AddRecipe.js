@@ -49,7 +49,7 @@ const AddRecipe = () => {
     if (!userIsAuthenticated()) {
       history.push('/')
     }
-  }, [])
+  }, [history])
 
 
   const displayImage =(event) => {

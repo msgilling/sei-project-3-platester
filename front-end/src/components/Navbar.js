@@ -17,7 +17,7 @@ const Navbar = ({ handleLoginClick }) => {
   const [query, setQuery] = useState({})
   const history = useHistory() 
   const location = useLocation()
-  const [openDropdown, setOpenDropdown] = useState(null)
+  // const [openDropdown, setOpenDropdown] = useState(null)
 
   useEffect(() => {
     

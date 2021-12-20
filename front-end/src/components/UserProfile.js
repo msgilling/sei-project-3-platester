@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router'
-import { getPayload } from './helpers/auth'
+// import { getPayload } from './helpers/auth'
 import RecipeCard from './RecipeCard'
 import { userIsAuthenticated } from './helpers/auth'
 
@@ -31,6 +31,7 @@ const UserProfile = () => {
     
   }, [history])
 
+  // eslint-disable-next-line no-unused-vars
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
