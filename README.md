@@ -9,7 +9,7 @@
 ## Overview
 **Platester** is an Airbnb clone that is an online recipe compendium about quality, homemade food that everyone can enjoy together. Users can upload, edit and delete their own recipes, for their own records or to share with others. Here, user’s can review each other's recipes and give a rating. They can also like/favourite recipes to save to their own profile.
 
-![Home page image](./frontend/src/assets/homepage.png?raw=true)
+![Home page image](/frontend/src/assets/homepage.png?raw=true)
 
 ## Find the deployed app here: [platester](https://platester.herokuapp.com/)
 We deployed the website using Heroku, which is a free server that sleeps when it is not in use. Please allow it a minute or two to wake up and get going! 💤
