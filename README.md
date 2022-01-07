@@ -1,15 +1,15 @@
 # Project-3 - PLATESTER 🍽
 
-## Project Members
-[Issra Hashim](https://github.com/IssraHashim/)
-[Mariah Gilling](https://github.com/msgilling)
-[Ed Steer](https://github.com/EdSteer)
-[Lee Wiseman](https://github.com/leewiseman94)
+## Project Members:
+- [Issra Hashim](https://github.com/IssraHashim/)
+- [Mariah Gilling](https://github.com/msgilling)
+- [Ed Steer](https://github.com/EdSteer)
+- [Lee Wiseman](https://github.com/leewiseman94)
 
 ## Overview
 **Platester** is an Airbnb clone that is an online recipe compendium about quality, homemade food that everyone can enjoy together. Users can upload, edit and delete their own recipes, for their own records or to share with others. Here, user’s can review each other's recipes and give a rating. They can also like/favourite recipes to save to their own profile.
 
-![Home page image](./frontend/src/assets/homepage.png)
+![Home page image](frontend/src/assets/homepage.png)
 
 ## Find the deployed app here: [platester](https://platester.herokuapp.com/)
 We deployed the website using Heroku, which is a free server that sleeps when it is not in use. Please allow it a minute or two to wake up and get going! 💤
@@ -21,7 +21,7 @@ Feel free to register your own account, or you can use mine:
 ## Brief
 To create a full-stack app using Node.js, Express and MongoDB. The app should have CRUD functionality and should contain several models and relationships.
 
-*Timeframe: 8 days*
+**Timeframe: 8 days**
 
 ## Technologies
 ### Backend:
@@ -115,7 +115,7 @@ Recipe show page:
 ![Recipe Show Page](./frontend/src/assets/recipeshow2.png)
 
 Airbnb show page:
-![Show page image](./frontend/src/assets/airbnbshow.png)
+![Show page image](./front-end/src/assets/airbnbshow.png)
 
 ## Bugs
 Improve styling on the Recipe show page could have been more fluid with the responsiveness.
