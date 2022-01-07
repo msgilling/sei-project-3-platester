@@ -25,10 +25,10 @@ To create a full-stack app using Node.js, Express and MongoDB. The app should ha
 
 ## Technologies
 ### Backend:
-MongoDB/Mongoose
-Express
-JWT
-BCrypt
+- MongoDB/Mongoose
+- Express
+- JWT
+- BCrypt
 
 ### Front-end:
 React.js
@@ -38,18 +38,18 @@ CSS
 React Router Dom
 
 ### Development Tools:
-VSCode
-Yarn
-Insomnia
-Trello Board (for planning)
-Google Jamboard (wireframing)
-Google Chrome dev tools
-Git + Github
-Zoom
-Slack
+- VSCode
+- Yarn
+- Insomnia
+- Trello Board (for planning)
+- Google Jamboard (wireframing)
+- Google Chrome dev tools
+- Git + Github
+- Zoom
+- Slack
 
 ### Other
-Procreate (for the logo and icons)
+- Procreate (for the logo and icons)
 
 ## Approach taken
 ### Planning:
@@ -118,27 +118,27 @@ Airbnb show page:
 ![Show page image](./front-end/src/assets/airbnbshow.png)
 
 ## Bugs
-Improve styling on the Recipe show page could have been more fluid with the responsiveness.
+- Improve styling on the Recipe show page could have been more fluid with the responsiveness.
 
 ## Challenges
-Customising with Bulma. We didn’t want to risk learning a new CSS Framework when we wanted our app to be a clone of a recognisable website, we thought using something familiar would be better. This meant sometimes we had to pair code to make sure everything was nested correctly as sometimes what we tried to style didn’t work how we wanted to.
-I found trying to style the Recipe Show page as closely to the Airbnb show page a bit tricky with only one image and more information but glad with what I ended up with in the final outcome.
+- Customising with Bulma. We didn’t want to risk learning a new CSS Framework when we wanted our app to be a clone of a recognisable website, we thought using something familiar would be better. However, we ended up spending quite some time trying to make Bulma work how we wanted.
+- I found trying to style the Recipe Show page as closely to the Airbnb show page a bit tricky with only one image and more information but glad with what I ended up with in the final outcome.
 
 
 ## Wins
-Working in a team was a great learning experience. I really liked how well we communicated with daily stand ups and merging together at the end of the day in case any merge conflicts came about.
-I was super happy that my logo fitted well with the app.
-The user flow and mobile responsiveness of the app was super rewarding, I think it really takes it to the next level when it looks good not only on desktop but mobile too.
-Being able to ask my team questions and to bounce ideas off of was great. I really enjoy working with others and helping them if they needed any assistance too.
+- Working in a team was a great learning experience. I really liked how well we communicated with daily stand ups and merging together at the end of the day in case any merge conflicts came about.
+- I was super happy that my logo fitted well with the app.
+- The user flow and mobile responsiveness of the app was super rewarding, I think it really takes it to the next level when it looks good not only on desktop but mobile too.
+- Being able to ask my team questions and to bounce ideas off of was great. I really enjoy working with others and helping them if they needed any assistance too.
 
 ## Key Learnings
-I enjoyed using Bulma due to its built in styling but found it was a bit long winded having to nest divs and such.
-Working as a team was a great learning experience as our individual strengths and weaknesses were balanced quite well.It was great how supportive and willing to help one another.
-Working together to get the backend done was super beneficial to us as we finished the backend in about two days. This really helped us have as much time as possible with the frontend functionality and styling.
+- I enjoyed using Bulma due to its built in styling but found it was a bit long winded having to nest divs and such.
+- Working as a team was a great learning experience as our individual strengths and weaknesses were balanced quite well.It was great how supportive and willing to help one another.
+- Working together to get the backend done was super beneficial to us as we finished the backend in about two days. This really helped us have as much time as possible with the frontend functionality and styling.
 
 
 ## Future Features
-For users to have an option to upload a profile picture and edit their profile and follow other users.
-The ability for there to be a blog/thread that users can upload their thoughts or problems in regards to cooking and help each other out.
-The ability to link recipes to their users so other users can check out what they have uploaded.
+- For users to have an option to upload a profile picture and edit their profile and follow other users.
+- The ability for there to be a blog/thread that users can upload their thoughts or problems in regards to cooking and help each other out.
+- The ability to link recipes to their users so other users can check out what they have uploaded.
 
