@@ -58,24 +58,24 @@ We all agreed straight away that we wanted to do daily stand-ups twice a day wit
 Since this was a group project, we decided to code the Backend all together as a group, then each take ownership of a Frontend element of the app. Lee did the UserProfile, Filtering, and Navbar, Issra did the Authentication, Reviews and AddRecipe and UpdateRecipe, Ed did the Homepage, Footer and Cooking Classes and I did the RecipeIndex and RecipeShow pages. Issra and I also pair coded on the Inspirations page together.
 
 We used Trello to divide all of our tasks:
-![Trello](./frontend/src/assets/trello.png)
+![Trello](./front-end/src/assets/trello.png)
 
 Relationships:
-![relationships image](./frontend/src/assets/relationships.png)
+![relationships image](./front-end/src/assets/relationships.png)
 
 Wireframing:
-![wireframe image](./frontend/src/assets/wireframe.png)
+![wireframe image](./front-end/src/assets/wireframe.png)
 
 ##  Backend:
 We decided as a group to code the Backend together, where we took it in turns to write the code, while screen sharing. This was really beneficial as then the rest of the team could check over the code as it was being typed and research into any errors that may have occurred. We planned out what models, controllers and routes we needed and whether aspects of our models would be referenced or embedded.
 
 Here is an example of our recipe controllers for adding and getting a single recipe:
-![add and single recipe image](./frontend/src/assets/getsinglerecipe.png)
+![add and single recipe image](./front-end/src/assets/getsinglerecipe.png)
 
 By this point, we needed to start adding data and seeding the database with recipes to check it all worked through Insomnia and so we had material to work with.
 
 Seeded recipe:
-![seeded recipe image](./frontend/src/assets/seededrecipe.png)
+![seeded recipe image](./front-end/src/assets/seededrecipe.png)
 
 As we wanted our app to look fully built at then end of the project we added about 20 recipes each to bulk out the app so we had a lot of data we could work with. 
 
@@ -85,34 +85,34 @@ Once the Backend was created, we took ownership of certain sections of the Front
 I wrote the AXIOS GET requests to display all the info about the recipes on our “show all/index” page. I then used the map function to iterate over each recipe and create individual cards for each one with Bulma CSS.
 
 Displaying each recipe card:
-![Code image](./frontend/src/assets/display_recipe_card.png)
+![Code image](./front-end/src/assets/display_recipe_card.png)
 
 Recipe card:
-![Recipe card image](./frontend/src/assets/recipecard.png)
+![Recipe card image](./front-end/src/assets/recipecard.png)
 
 My Recipe Index page:
-![Index page image](./frontend/src/assets/recipeindex.png)
+![Index page image](./front-end/src/assets/recipeindex.png)
 
 Airbnb Index page:
-![Index page image](./frontend/src/assets/airbnbindex.png)
+![Index page image](./front-end/src/assets/airbnbindex.png)
 
 For the RecipeShow component I created the file and imported the required packages. I then made sure to make an AXIOS request to check I was retrieving the right data. To do this, I used the useEffect() function to make a request to our API. I also made sure to use an async/await so that the data was being grabbed in the right order. 
 
 useEffect() code:
-![UseEffect code](./frontend/src/assets/useeffectcode.png)
+![UseEffect code](./front-end/src/assets/useeffectcode.png)
 
 Because I set the data to an empty object within a useState() function, I could now access this information with dot notation and display the required information in return.
 
 Example of accessing specified information through dot notation:
-![Code](./frontend/src/assets/dotnotation.png)
+![Code](./front-end/src/assets/dotnotation.png)
 
 I definitely preferred to style as I went along, so that if we ran out of time we would not be rushing at the end of the week doing CSS. As we were aiming for an Airbnb clone site, I really wanted to make sure it was recognisable straight away.
 
 I was really happy with how my styling for the index and show pages turned out, much like Airbnbs index and show page but with our own <i>platester</i> twist.
 
 Recipe show page:
-![Recipe Show Page](./frontend/src/assets/recipeshow.png)
-![Recipe Show Page](./frontend/src/assets/recipeshow2.png)
+![Recipe Show Page](./front-end/src/assets/recipeshow.png)
+![Recipe Show Page](./front-end/src/assets/recipeshow2.png)
 
 Airbnb show page:
 ![Show page image](./front-end/src/assets/airbnbshow.png)
