@@ -53,7 +53,7 @@ React Router Dom
 
 ## Approach taken
 ### Planning:
-We all agreed straight away that we wanted to do daily stand-ups twice a day with each other so we knew where everyone was at and if anyone needed any assistance.. At the end of each day we would merge one by one and fix any merge conflicts together. worked together throughout the day through Zoom. This was a great way of working, so that in case one of us was stuck we all pitched in where we could.
+We all agreed straight away that we wanted to do daily stand-ups twice a day with each other so we knew where everyone was at and if anyone needed any assistance. At the end of each day we would merge one by one and fix any merge conflicts together. This was all due to the fact that we worked throughout the day through Zoom. This was a great way of working, so that in case one of us was stuck we all pitched in where we could.
 
 Since this was a group project, we decided to code the Backend all together as a group, then each take ownership of a Frontend element of the app. Lee did the UserProfile, Filtering, and Navbar, Issra did the Authentication, Reviews and AddRecipe and UpdateRecipe, Ed did the Homepage, Footer and Cooking Classes and I did the RecipeIndex and RecipeShow pages. Issra and I also pair coded on the Inspirations page together.
 
